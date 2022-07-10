@@ -89,9 +89,9 @@ class _MyMainState extends State<MyMain> {
           );
         }
         else if (snapshot.hasError) {
-          return Container();  // here return SplashScreen
+          return Container();  // here return your ErrorScreen widget
         }else {
-          return Container(); // here return SplashScreen
+          return Container(); // here return your SplashScreen widget
         }
       },
     );
